@@ -1,4 +1,4 @@
-# Emotion Detection of Live Video with Recurrent Neural Networks
+# Emotion Detection of Live Video with Neural Networks
 By Hunter Abraham & Collin Lenz
 
 # Emotion Detection
