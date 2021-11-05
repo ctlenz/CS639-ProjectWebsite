@@ -1,5 +1,4 @@
-# Emotion Detection of Live Video with Recurrent Neural Networks
-## By Hunter & Collin
+# Emotion Detection of Live Video with Recurrent Neural Networks <br/> By Hunter & Collin
 
 You can use the [editor on GitHub](https://github.com/ctlenz/CS639-ProjectWebsite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
