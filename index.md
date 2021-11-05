@@ -4,9 +4,18 @@ You can use the [editor on GitHub](https://github.com/ctlenz/CS639-ProjectWebsit
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Section 1
+Stuff about neural networks
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Section 2
+Details about training and data
+
+### Subsection 2-1
+Links to training data 
+
+### Subsection 2-2
+Data represented in images or graphs
+![Image](https://images.contentstack.io/v3/assets/blt71da4c740e00faaa/blt886f949e52cc64c9/60130ad37957730fa57abdd0/RNN_Unrolled.jpg)
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +35,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ctlenz/CS639-ProjectWebsite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
