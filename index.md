@@ -1,4 +1,4 @@
-## Emotion Detection of Live Video through a Recurrent Neural Network
+# Emotion Detection of Live Video with Recurrent Neural Networks
 
 You can use the [editor on GitHub](https://github.com/ctlenz/CS639-ProjectWebsite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
