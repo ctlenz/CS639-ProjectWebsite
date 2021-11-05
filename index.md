@@ -1,35 +1,24 @@
 # Emotion Detection of Live Video with Recurrent Neural Networks
 By Hunter Abraham & Collin Lenz
 
-# Section 1
-Stuff about neural networks
+# Emotion Detection
+Emotion detection involves classifying the emotion of a facial expression using computer vision algorithms, in our case a recurrent neural network. This problem can be extended to live video feeds, classifying the emotions of the person or people being recorded in real-time. This classification can be comprised of many subproblems within computer vision, such as edge detection, shadow detection, feature engineering, and machine learning using convolutional neural networks. </br>
+![Image](https://cdn.vox-cdn.com/thumbor/GyrGqYz79xml_3VBPE-lXLf6zv0=/0x0:1592x1064/1200x0/filters:focal(0x0:1592x1064):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/18334536/ll_1.png)
 
-# Section 2
-Details about training and data
+# Our Classification Method
+We initally developed a convolutional neural network for feature extraction and then subsequently implemented a LSTM(Long Short Term Memory) recurrent neural network utilizing feature engineering for classification.
+### CNN 
+details about CNN
+### RNN
+details about RNN
+### Training Data
+We used a dataset from a Kaggle competition called fer2013. The dataset is comprised of 48x48 pixel greyscale images of faces that are categorized as: 0=Angry, 1-Disgust, 2-Fear, 3-Happy, 4-Sad, 5-Surprise, and 6-Neutral. The data is represented as two columns, one with the numerical categorization from 0-6 and the other with the pixel values. </br>
+![Image](https://storage.googleapis.com/kaggle-datasets-images/786787/1351797/89e6e907cb903b4f523bbd613e46b8a8/data-original.png?t=2020-07-19-18-42-52)
 
-### Subsection 2-1
-Links to training data 
 
-### Subsection 2-2
+
+### Subsection 
 ![Image](https://images.contentstack.io/v3/assets/blt71da4c740e00faaa/blt886f949e52cc64c9/60130ad37957730fa57abdd0/RNN_Unrolled.jpg)
-</br>]]Data represented in images or graphs
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+</br>neural network data represented in images or graphs
 
 
