@@ -12,7 +12,7 @@ Links to training data
 
 ### Subsection 2-2
 ![Image](https://images.contentstack.io/v3/assets/blt71da4c740e00faaa/blt886f949e52cc64c9/60130ad37957730fa57abdd0/RNN_Unrolled.jpg)
-Data represented in images or graphs
+</br>]]Data represented in images or graphs
 
 ```markdown
 Syntax highlighted code block
