@@ -23,7 +23,9 @@ We used a dataset from a Kaggle competition called [fer2013](https://www.kaggle.
 
 ### Difficulties
 We wanted to implement a recurrent neural network, but we couldn’t find an accessible dataset that had images collected chronologically. As a result, we would gain no benefit from the RNNs ability to utilize temporal context. Instead, we attempted to use a Viola-Jones algorithm to extract facial features with a feed-forward network and then classify emotions based on the extracted features. While we were able to get the algorithm to give us facial features on test images, we ran into issues trying to use the Viola-Jones algorithm on our FER-2013 dataset. The algorithm currently isn’t able to detect our dataset as images of faces due to the dataset’s small resolution. With no other workable dataset we instead attempted to adjust our CNN's architecture in an attempt to improve our test accuracy.  
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRtUYUgn7YYKJKeDuXUUFMV3MY3ewAR7B023GoLpV6RdyoL642vgxowOrj5BsHzOqseTqus-XSzKnc7/pub?w=455&amp;h=228">
+<br/><br/>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRtUYUgn7YYKJKeDuXUUFMV3MY3ewAR7B023GoLpV6RdyoL642vgxowOrj5BsHzOqseTqus-XSzKnc7/pub?w=455&amp;h=228">  
+*left: Viola-Jones classifier ran on a test image, right: sample picture from FER-2013 dataset*
 
 
 
