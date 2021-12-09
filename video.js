@@ -26,10 +26,6 @@
     function draw(video, context, width, height){
         var image, data;
         context.drawImage(video, 0, 0, width, height);
-        
-        image = context.getImageData(0,0,width,height);
-        data = image.data;
-        console.log(data);
 
         setTimeout(draw, 10, video, context, width, height);
     }
