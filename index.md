@@ -19,7 +19,9 @@ checklist: layers, activation functions, pooling, dropout
 <iframe src="https://drive.google.com/file/d/1I2QBX-pL_4PUfm22vcZstMRKvJk77ac7/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ### Training Data
-We used a dataset from a Kaggle competition called [fer2013](https://www.kaggle.com/deadskull7/fer2013). The dataset is comprised of 48x48 pixel greyscale images of faces that are categorized as: 0=Angry, 1-Disgust, 2-Fear, 3-Happy, 4-Sad, 5-Surprise, and 6-Neutral. The data is represented as two columns, one with the numerical categorization from 0-6 and the other with the pixel values.  ![Image](https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg)
+We used a dataset from a Kaggle competition called [fer2013](https://www.kaggle.com/deadskull7/fer2013). The dataset is comprised of 48x48 pixel greyscale images of faces that are categorized as: 0=Angry, 1-Disgust, 2-Fear, 3-Happy, 4-Sad, 5-Surprise, and 6-Neutral. The data is represented as two columns, one with the numerical categorization from 0-6 and the other with the pixel values.  
+<br/><br/>
+![Image](https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg)
 
 ### Difficulties
 We wanted to implement a recurrent neural network, but we couldn’t find an accessible dataset that had images collected chronologically. As a result, we would gain no benefit from the RNNs ability to utilize temporal context. Instead, we attempted to use a Viola-Jones algorithm to extract facial features with a feed-forward network and then classify emotions based on the extracted features. While we were able to get the algorithm to give us facial features on test images, we ran into issues trying to use the Viola-Jones algorithm on our FER-2013 dataset. The algorithm currently isn’t able to detect our dataset as images of faces due to the dataset’s small resolution. With no other workable dataset we instead attempted to adjust our CNN's architecture in an attempt to improve our test accuracy.  
