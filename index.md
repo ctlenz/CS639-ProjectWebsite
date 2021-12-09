@@ -8,6 +8,7 @@ Emotion detection involves classifying the emotion of a facial expression using 
 We initally developed a convolutional neural network for feature extraction and then subsequently implemented a LSTM(Long Short Term Memory) recurrent neural network utilizing feature engineering for classification.
 ### CNN 
 details about CNN
+[link](page.html)
 ### RNN
 details about RNN
 ### Training Data
