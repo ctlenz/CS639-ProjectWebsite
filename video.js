@@ -15,6 +15,10 @@
     }, function(stream){
         video.srcObject = stream;
         video.play()
+        var image, data;
+        image = context.getImageData(0, 0, width, height);
+        data = image.data;
+        console.log(data);
     }, function(error){
         //an error occured
     });
