@@ -14,12 +14,17 @@
         audio: false
     }, function(stream){
         video.srcObject = stream;
-        video.play()
-        var image, data;
-        image = context.getImageData(0, 0,);
-        data = image.data;
-        console.log(data);
+        //video.play()
     }, function(error){
         //an error occured
     });
+
+    window.addEventListener('load', function(){
+        draw(video, context, 400, 300);
+    }, false);
+
+    function draw(video, context, width, height){
+        context.drawImage(video, 0, 0, width, height);
+        setTimeout(draw, 10, video, context, width, height);
+    }
 })();
