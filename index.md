@@ -15,6 +15,8 @@ We have found a dataset for emotion detection, FER-2013, and have implemented a 
 ### CNN 
 checklist: layers, activation functions, pooling, dropout
 
+### CNN-2
+
 ### CNN Demo
 <iframe src="https://drive.google.com/file/d/1I2QBX-pL_4PUfm22vcZstMRKvJk77ac7/preview" width="640" height="480" allow="autoplay"></iframe>
 
