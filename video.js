@@ -16,7 +16,7 @@
         video.srcObject = stream;
         video.play()
         var image, data;
-        image = context.getImageData(0, 0, width, height);
+        image = context.getImageData(0, 0,);
         data = image.data;
         console.log(data);
     }, function(error){
